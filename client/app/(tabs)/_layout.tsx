@@ -43,10 +43,10 @@ export default function TabLayout() {
             <AntDesign
               size={28}
               name="home"
-              color={focused ? "#FE5F55" : "gray"}
+              color={focused ? "#5A55CA" : "gray"}
             />
           ),
-          tabBarActiveTintColor: "#FE5F55",
+          tabBarActiveTintColor: "#5A55CA",
         }}
       />
       <Tabs.Screen
@@ -57,10 +57,10 @@ export default function TabLayout() {
             <AntDesign
               name="solution1"
               size={24}
-              color={focused ? "#FE5F55" : "gray"}
+              color={focused ? "#5A55CA" : "gray"}
             />
           ),
-          tabBarActiveTintColor: "#FE5F55",
+          tabBarActiveTintColor: "#5A55CA",
         }}
       />
 
@@ -72,10 +72,10 @@ export default function TabLayout() {
             <MaterialCommunityIcons
               name="account-outline"
               size={28}
-              color={focused ? "#FE5F55" : "gray"}
+              color={focused ? "#5A55CA" : "gray"}
             />
           ),
-          tabBarActiveTintColor: "#FE5F55",
+          tabBarActiveTintColor: "#5A55CA",
         }}
       />
     </Tabs>
